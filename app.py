@@ -40,7 +40,7 @@ if __name__ == '__main__':
               'Reality-TV', 'Romance', 'Sci-Fi', 'Short', 'Sport', 'Thriller', 'War', 'Western']
 
     movies = [title[0] for title in movie_titles]
-    st.markdown("<h1 style='text-align: center;'>MOVIE GAME HOUSE</h1>",unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>MOVIE NIGHT RECOMMENDER</h1>",unsafe_allow_html=True)
     apps = ['--Select--', 'Movie based', 'Genres based']   
     app_options = st.selectbox('Select application:', apps)
     
